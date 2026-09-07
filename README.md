@@ -1,7 +1,7 @@
 # Spacewar Online-Fix Setup Guide
 A comprehensive guide to setting up Online-Fix for Spacewar on Linux.
 
-## Resources
+## Resources for launcher
 - [Online-Fix GitHub Repository for downloading Launcher](https://github.com/ZzEdovec/onlinefix-linux)
 - [Online-Fix Official Website for downloading Launcher](https://zzedovec.github.io/index_en.html)
 
@@ -15,7 +15,7 @@ Both applications can be installed via your system's package manager or Flatpak.
 ## Installation Steps
 
 ### Step 1: Download Online-Fix Launcher
-Download the Online-Fix Launcher from the official site or directly download my `onlinefix_launcher_installer` file. 
+Download the Online-Fix Launcher from the launchedowload  folder at the top
 
 ### Step 2: Set Execute Permissions
 1. Open the file manager and right-click the `onlinefix_launcher` file
