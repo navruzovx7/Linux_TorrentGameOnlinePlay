@@ -1,0 +1,107 @@
+# Spacewar Online-Fix Setup Guide
+
+A comprehensive guide to setting up Online-Fix for Spacewar on Linux.
+
+## Resources
+- [Online-Fix GitHub Repository for dowloading Launc](https://github.com/ZzEdovec/onlinefix-linux)
+- [Online-Fix Official Website for dowloading Launcher](https://zzedovec.github.io/index_en.html)
+
+## Prerequisites
+
+Before proceeding, ensure you have the following applications installed:
+
+- **qBittorrent** — for torrent file management
+- **Lutris** — for game compatibility
+
+Both applications can be installed via your system's package manager or Flatpak.
+
+## Installation Steps
+
+### Step 1: Download Online-Fix Launcher
+Download the Online-Fix Launcher from the official site or directly download my `onlinefix_launcher_installer` file. 
+
+### Step 2: Set Execute Permissions
+1. Open the file manager and right-click the `onlinefix_launcher` file
+2. Select **Properties**
+3. Go to **Permissions** and enable "Allow executing file as program"
+
+![alt text](image-1.png)
+
+
+
+![alt text](image-2.png)
+
+### Step 3: Launch the Installer
+Double-click `OnlineFix_launcher` and click "Download"
+
+![alt text](image-3.png)
+
+### Step 4: Open Steam and Launch Online-Fix
+Open Steam first, then launch the Online-Fix program
+
+![alt text](image-4.png)
+
+### Step 5: Download Spacewar
+You will see Spacewar on Steam. Click "Download" and do not create shortcuts.
+
+![alt text](image-6.png)
+
+### Step 6: Wait for Download
+Spacewar will start downloading.
+
+![alt text](image-7.png)
+
+### Step 7: Configure Proton
+While downloading, right-click Spacewar in your library and go to **Properties**. Enable the compatibility option and select your Proton version (Proton-Cachy OS is recommended).
+
+![alt text](image-8.png)
+
+### Step 8: Test the Installation
+After the download finishes, open Spacewar. It should open and close automatically. If it doesn't close, close it manually.
+
+## Adding Games via Torrent
+
+### Step 9: Download Games
+Download games from torrent sites or the Online-Fix site:
+- [Online-Fix](https://online-fix.me/)
+- [Torrent-Igruha.net](https://torrent-igruha.net) (includes torrents)
+
+### Step 10: Use qBittorrent
+Open qBittorrent and drag your torrent file into it, then click "Download".
+
+**Note:** Game files are typically setup files. If your game is already set up with an `.exe` file inside, skip to Step 13.
+
+### Step 11: Configure with Lutris
+1. Open Lutris and click "Add Game"
+2. Select "Add locally installed game"
+3. Give it a name and select Wine as the runner
+
+![alt text](image-9.png)
+![alt text](image-10.png)
+
+Run the game and download it to the Downloads folder.
+- **Default path:** `C:~/home/your_user_name/Downloads`
+- **Your path may differ**
+
+### Step 12: Check Downloads Folder
+Verify that your game files are extracted in the Downloads folder.
+
+![alt text](image-11.png)
+
+### Step 13: Add Game to Online-Fix
+1. Open Online-Fix
+2. Click "Add Game" and select your game folder
+3. Click "Enter" and it will download and configure automatically
+4. Click "Play"
+
+**Note:** Steam needs to be open for online functionality.
+
+![alt text](image-12.png)
+
+---
+
+!! If spacewar did'n show then Open .exe game file on lutris while steam open then check steam again 
+
+## Done! Enjoy Your Game
+Thank you for using this guide! 
+
