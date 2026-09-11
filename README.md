@@ -30,9 +30,9 @@ Double-click `OnlineFix_launcher` and click "Download"
 
 ![Launch the Installer](img/image-3.png)
 If did't Open rigth click the anywhere and click Open terminal here and paste this
-'''bash
+```bash
 chmod +x onlinefix_launcher_installer && ./onlinefix_launcher_installer
-'''
+```
 ### Step 4: Open Steam and Launch Online-Fix
 Open Steam first, then launch the Online-Fix program
 
